@@ -1,0 +1,96 @@
+body{
+    background-image: url(Captura.PNG);
+    height:665px;
+    background-size: 10rem;
+    height: 50px;
+    margin: 7%;
+    margin-block: 5%;
+}
+img{
+    max-width: 200px;
+    max-height: 500px;
+    display: block;
+ margin: 0px auto;
+}
+h2{
+    color: rgb(250, 252, 145);
+    font-family: oso;
+}
+h1{
+    color: rgb(221, 253, 132);
+    font-family: fofo;
+    text-align: center;
+}
+li {
+    color: rgb(219, 245, 245);
+    font-family: gato;
+    
+}
+@font-face {
+    font-family: fofo;
+    src: url(letra\ fofo.ttf);
+}
+@font-face {
+    font-family: gato;
+    src: url(letra\ gato.ttf);
+}
+@font-face {
+    font-family: oso;
+    src: url(letra\ osito.ttf);
+}
+@font-face {
+    font-family: neko;
+    src: url(letra\ fofito.ttf);
+}
+.contenedor{
+    background-color: rgb(234, 245, 225);
+
+    
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    color: rgb(143, 228, 240);
+    font-family: serif;
+    margin-bottom: 10px;
+}
+.tittle {
+    font-size: 18px ;
+    font-family: monospace;
+}
+.nav {
+    margin-top: 10px;
+    list-style-type: none;
+    padding-left: 0;
+}
+.nav li {
+    display: inline-block;
+}
+
+.nav li {
+    display: inline-block;
+}
+
+.nav a {
+    color: rgb(245, 112, 112) ;
+    background-color: rgb(255, 200, 49);
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+.nav .blog {
+    background-color: brown;
+}
+
+div {
+    background-image: url(max.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    color: #ffffff;
+}
